@@ -1,0 +1,208 @@
+* {
+    font-family: 'Segoe UI';
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #01CCB9;
+    border-radius: 10px;
+  }
+
+  .coc {
+    background-image: url(./src/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.club {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.711);
+}
+
+.content {
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+}
+
+button {
+    color: #ffffff;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+/* buttons hover effect*/
+button:hover {
+    background: #ffffff5f;
+}
+
+
+.socials {
+    transform: translateY(950%);
+}
+
+/* info box */
+.cbox {
+    width: 300px;
+    padding: 96px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+/* bubble Animation */
+
+.hobbabs img {
+    width: 50px;
+    animation: doup 7s linear infinite;
+}
+
+.hobbabs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+.hobbabs1 img {
+    width: 50px;
+    animation: doup1 7s linear infinite;
+}
+
+.hobbabs1 {
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+.hobbabs1 img:nth-child(1) {
+    animation-delay: 2s;
+    width: 25px;
+}
+.hobbabs1 img:nth-child(2) {
+    animation-delay: 1s;
+}
+.hobbabs1 img:nth-child(3) {
+    animation-delay: 3s;
+    width: 25px;
+}
+.hobbabs1 img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+.hobbabs1 img:nth-child(5) {
+    animation-delay: 3s;
+}
+.hobbabs1 img:nth-child(6) {
+    animation-delay: 6s;
+    width: 20px;
+}
+.hobbabs1 img:nth-child(7) {
+    animation-delay: 7s;
+    width: 35px;
+}
+
+
+@keyframes doup {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+@keyframes doup1 {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-110vh);
+        opacity: 1;
+    }
+}
+
+.hobbabs img:nth-child(1) {
+    animation-delay: 2s;
+    width: 25px;
+}
+.hobbabs img:nth-child(2) {
+    animation-delay: 1s;
+}
+.hobbabs img:nth-child(3) {
+    animation-delay: 3s;
+    width: 25px;
+}
+.hobbabs img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+.hobbabs img:nth-child(5) {
+    animation-delay: 3s;
+}
+.hobbabs img:nth-child(6) {
+    animation-delay: 6s;
+    width: 20px;
+}
+.hobbabs img:nth-child(7) {
+    animation-delay: 7s;
+    width: 35px;
+}
